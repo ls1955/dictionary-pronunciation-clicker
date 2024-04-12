@@ -1,4 +1,4 @@
-const dictUrl = "https://www.dictionary.com/";
+const dictUrl = "https://www.dictionary.com/browse";
 
 chrome.action.onClicked.addListener(async (tab) => {
   if (tab.url.startsWith(dictUrl)) {
